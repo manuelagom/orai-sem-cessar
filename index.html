@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orai Sem Cessar - Terços</title>
+  <style>
+    :root {
+      --magenta: #a1003d;
+      --dourado: #d4af37;
+      --background: #fff8f0;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--background);
+      color: var(--magenta);
+    }
+
+    header {
+      background-color: var(--magenta);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: var(--dourado);
+    }
+
+    .logo {
+      width: 120px;
+      margin: 1rem auto;
+    }
+
+    .section {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .section h2 {
+      color: var(--magenta);
+      font-size: 2rem;
+    }
+
+    .button {
+      background-color: var(--dourado);
+      color: var(--magenta);
+      padding: 0.8rem 1.5rem;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .button:hover {
+      background-color: #b8922d;
+    }
+
+    footer {
+      background-color: var(--magenta);
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    input, textarea {
+      margin: 0.5rem 0;
+      padding: 0.7rem;
+      border-radius: 6px;
+      border: 1px solid var(--magenta);
+      font-size: 1rem;
+    }
+
+    .social-icons {
+      margin-top: 1rem;
+    }
+
+    .social-icons a {
+      color: var(--dourado);
+      margin: 0 0.5rem;
+      font-size: 1.5rem;
+      text-decoration: none;
+    }
+  </style>
+  <script src="https://kit.fontawesome.com/a2e0e6b917.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo Orai Sem Cessar" class="logo">
+    <h1>Orai Sem Cessar</h1>
+    <p>Terços artesanais feitos com fé</p>
+  </header>
+
+  <div class="section">
+    <h2>Conheça nossos terços</h2>
+    <p>Produzimos com carinho e espiritualidade para você fortalecer sua fé.</p>
+    <a href="catalogo.pdf" class="button" download>📄 Baixar Catálogo</a>
+    <p style="margin-top: 1rem;">ou</p>
+    <a href="https://wa.me/SEUNUMERO" target="_blank" class="button">📲 Pedir Catálogo pelo WhatsApp</a>
+  </div>
+
+  <div class="section" style="background-color: var(--magenta); color: white;">
+    <h2>Feito com propósito</h2>
+    <p>Cada peça é única e carregada de oração.</p>
+  </div>
+
+  <div class="section">
+    <h2>Fale Conosco</h2>
+    <form>
+      <input type="text" placeholder="Seu nome" required>
+      <input type="email" placeholder="Seu e-mail" required>
+      <textarea rows="4" placeholder="Sua mensagem" required></textarea>
+      <button type="submit" class="button">Enviar</button>
+    </form>
+  </div>
+
+  <div class="section">
+    <h2>Redes Sociais</h2>
+    <p>Siga-nos e fique por dentro das novidades:</p>
+    <div class="social-icons">
+      <a href="https://wa.me/SEUNUMERO" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://instagram.com/sualoja" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="mailto:contato@oraisemcessar.com" title="Email"><i class="fas fa-envelope"></i></a>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Orai Sem Cessar - Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
